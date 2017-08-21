@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.globalSearchVariableService = Object.freeze({
+    initialVocabulary: 'http://www.knora.org/ontology/incunabula',
+    API_URL: 'http://130.60.24.65:3333/v1',
+    resourceTypesPath: '/resourcetypes?vocabulary=',
+    propertyListsQuery: '/propertylists?restype=',
+    extendedSearch: '/search/?searchtype=extended&filter_by_restype=',
+    extendedProperty: '&property_id=',
+    compareOperator: '&compop=',
+    searchval: '&searchval='
+});
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9zdWNoZS9nbG9iYWxTZWFyY2hWYXJpYWJsZXNTZXJ2aWNlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQWEsUUFBQSwyQkFBMkIsR0FBRyxNQUFNLENBQUMsTUFBTSxDQUFDO0lBQ3ZELGlCQUFpQixFQUFFLDBDQUEwQztJQUM3RCxPQUFPLEVBQUUsNkJBQTZCO0lBQ3RDLGlCQUFpQixFQUFHLDRCQUE0QjtJQUNoRCxrQkFBa0IsRUFBRSx5QkFBeUI7SUFDN0MsY0FBYyxFQUFFLGlEQUFpRDtJQUNqRSxnQkFBZ0IsRUFBRSxlQUFlO0lBQ2pDLGVBQWUsRUFBRSxVQUFVO0lBQzNCLFNBQVMsRUFBRSxhQUFhO0NBRXpCLENBQUMsQ0FBQyIsImZpbGUiOiJhcHAvc3VjaGUvZ2xvYmFsU2VhcmNoVmFyaWFibGVzU2VydmljZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBnbG9iYWxTZWFyY2hWYXJpYWJsZVNlcnZpY2UgPSBPYmplY3QuZnJlZXplKHtcbiAgaW5pdGlhbFZvY2FidWxhcnk6ICdodHRwOi8vd3d3Lmtub3JhLm9yZy9vbnRvbG9neS9pbmN1bmFidWxhJyxcbiAgQVBJX1VSTDogJ2h0dHA6Ly8xMzAuNjAuMjQuNjU6MzMzMy92MScsXG4gIHJlc291cmNlVHlwZXNQYXRoOiAgJy9yZXNvdXJjZXR5cGVzP3ZvY2FidWxhcnk9JyxcbiAgcHJvcGVydHlMaXN0c1F1ZXJ5OiAnL3Byb3BlcnR5bGlzdHM/cmVzdHlwZT0nLFxuICBleHRlbmRlZFNlYXJjaDogJy9zZWFyY2gvP3NlYXJjaHR5cGU9ZXh0ZW5kZWQmZmlsdGVyX2J5X3Jlc3R5cGU9JyxcbiAgZXh0ZW5kZWRQcm9wZXJ0eTogJyZwcm9wZXJ0eV9pZD0nLFxuICBjb21wYXJlT3BlcmF0b3I6ICcmY29tcG9wPScsXG4gIHNlYXJjaHZhbDogJyZzZWFyY2h2YWw9J1xuICAvLy4uLiBtb3JlIG9mIHlvdXIgdmFyaWFibGVzXG59KTtcbiJdfQ==
